@@ -15,11 +15,11 @@ C:/Users/CHANG/Desktop/Workspace/UnityWorkspace/TokoJump/TokoJump
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-10240
+12001
 Successfully changed project path to: C:/Users/CHANG/Desktop/Workspace/UnityWorkspace/TokoJump/TokoJump
 C:/Users/CHANG/Desktop/Workspace/UnityWorkspace/TokoJump/TokoJump
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 45.26 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 39.33 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.12f1 (b3b2c6512326)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
@@ -35,37 +35,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/2020.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56228
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56552
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001627 seconds.
+Registered in 0.001560 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 50.89 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 41.76 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.479 seconds
+- Completed reload, in  1.482 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003402 seconds.
+Registered in 0.003553 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 46.40 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 39.75 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.981 seconds
+- Completed reload, in  0.910 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2085 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 95.6 MB.
 System memory in use after: 95.5 MB.
 
 Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2517.
-Total: 1.878200 ms (FindLiveObjects: 0.212600 ms CreateObjectMapping: 0.046100 ms MarkObjects: 1.517700 ms  DeleteObjects: 0.100600 ms)
+Total: 2.202500 ms (FindLiveObjects: 0.204500 ms CreateObjectMapping: 0.047800 ms MarkObjects: 1.822500 ms  DeleteObjects: 0.126100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -79,289 +79,1817 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/UnityChan/2DUnitychan/AnimationController/2D Action Controllers/Holger.overrideController
-  artifactKey: Guid(cbc8cc5a697294457919e9b8d952b799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityChan/2DUnitychan/AnimationController/2D Action Controllers/Holger.overrideController using Guid(cbc8cc5a697294457919e9b8d952b799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fd1f11804788554bb7d794ff6abb9aa') in 0.110902 seconds 
-  Import took 0.114519 seconds .
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Attack1_7.png
+  artifactKey: Guid(832b2b3536df34c2bbc4f33b7899a3a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Attack1_7.png using Guid(832b2b3536df34c2bbc4f33b7899a3a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0ee540e01d42d06e32a82d8341c9382') in 0.102301 seconds 
+  Import took 0.106144 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/UnityChan/2DUnitychan/AnimationController/2D Action Controllers/Unitychan(Gun).overrideController
-  artifactKey: Guid(7ecdb8983ed214a7b83c771ef497c43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityChan/2DUnitychan/AnimationController/2D Action Controllers/Unitychan(Gun).overrideController using Guid(7ecdb8983ed214a7b83c771ef497c43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24b668408cc192fd4d47ec13fcb9723f') in 0.094516 seconds 
-  Import took 0.097344 seconds .
+  Time since last request: 0.000219 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Attack1_10.png
+  artifactKey: Guid(05146ca6531e448d6acfda9abc12b6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Attack1_10.png using Guid(05146ca6531e448d6acfda9abc12b6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6571b2a1be8057599e464dafa0b05f4e') in 0.016123 seconds 
+  Import took 0.019732 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/UnityChan/2DUnitychan/AnimationController/2D Action Controllers
-  artifactKey: Guid(10bad2400aca74bffa549452ab578171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityChan/2DUnitychan/AnimationController/2D Action Controllers using Guid(10bad2400aca74bffa549452ab578171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e87ee47e6193a1011fc67e4ed5e34b5') in 0.007260 seconds 
-  Import took 0.009966 seconds .
+  Time since last request: 0.000200 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Crouch_1.png
+  artifactKey: Guid(a402ae99fb13f44f49668a0e56918a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Crouch_1.png using Guid(a402ae99fb13f44f49668a0e56918a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bcb52251e1a8998d184abb857b358df') in 0.020176 seconds 
+  Import took 0.023196 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/UnityChan/2DUnitychan/AnimationController/2DBasicControllers
-  artifactKey: Guid(81a58dc64a2b44d6a9314ef733caea78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityChan/2DUnitychan/AnimationController/2DBasicControllers using Guid(81a58dc64a2b44d6a9314ef733caea78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14d0c33b7fbd52d364660036d699c962') in 0.008523 seconds 
-  Import took 0.011345 seconds .
+  Time since last request: 0.000324 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko
+  artifactKey: Guid(6589c69bd938742279ee74754f47d289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko using Guid(6589c69bd938742279ee74754f47d289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32721512de8800bb105e12dc3f3d3bf8') in 0.005885 seconds 
+  Import took 0.009068 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/UnityChan/2DUnitychan/AnimationController/2DAEmitionControllers
-  artifactKey: Guid(b56c29f2df9244dec85d3c666d7adc3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityChan/2DUnitychan/AnimationController/2DAEmitionControllers using Guid(b56c29f2df9244dec85d3c666d7adc3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e9a70925f3d3ea4615048300374efda') in 0.007409 seconds 
-  Import took 0.010293 seconds .
+  Time since last request: 0.000177 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Blink_1.png
+  artifactKey: Guid(c45c27edb1e904424ae3a997a4cec767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Blink_1.png using Guid(c45c27edb1e904424ae3a997a4cec767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3ee246852ceb9ccb67527310f8f7e44') in 0.014417 seconds 
+  Import took 0.017841 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/UnityChan/2DUnitychan/AnimationController/2D Action Controllers/Toko.overrideController
-  artifactKey: Guid(67bf33cd949304cbaabe969dfe04f653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityChan/2DUnitychan/AnimationController/2D Action Controllers/Toko.overrideController using Guid(67bf33cd949304cbaabe969dfe04f653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24c9ee3c67475bbdcb01b5ce436cb05e') in 0.075999 seconds 
-  Import took 0.079062 seconds .
+  Time since last request: 0.000249 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Attack1_12.png
+  artifactKey: Guid(3c43605ac45e6463ea5237baaa482bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Attack1_12.png using Guid(3c43605ac45e6463ea5237baaa482bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '810716272cafada53ca1cd83a66bc09f') in 0.016201 seconds 
+  Import took 0.018949 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/UnityChan/2DUnitychan/AnimationController/2D Action Controllers/Unitychan(Sword).overrideController
-  artifactKey: Guid(efcb6b10e9cec433f91d508fd4c3def6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityChan/2DUnitychan/AnimationController/2D Action Controllers/Unitychan(Sword).overrideController using Guid(efcb6b10e9cec433f91d508fd4c3def6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f875f833fd3760a39e80b587622432d') in 0.032924 seconds 
-  Import took 0.035696 seconds .
+  Time since last request: 0.000190 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Attack1_1.png
+  artifactKey: Guid(f85857d3d55f34fd0806670b93ab6db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Attack1_1.png using Guid(f85857d3d55f34fd0806670b93ab6db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e71403a90925aee2cda4bead32e1687d') in 0.014569 seconds 
+  Import took 0.018221 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/UnityChan/2DUnitychan/AnimationController
-  artifactKey: Guid(f54e7d24aaf8542ab9f7f8ca60de52d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityChan/2DUnitychan/AnimationController using Guid(f54e7d24aaf8542ab9f7f8ca60de52d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de68740b87fdf025776e29e0a343868e') in 0.007958 seconds 
-  Import took 0.010926 seconds .
+  Time since last request: 0.000185 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Attack1_4.png
+  artifactKey: Guid(157aabbf62eb34c73839f9b8ef895535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Attack1_4.png using Guid(157aabbf62eb34c73839f9b8ef895535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '577b2da9a710e9e3fc718d835fa309f3') in 0.014470 seconds 
+  Import took 0.017287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Attack1_8.png
+  artifactKey: Guid(7252e893a943743ffae1979523c2b8b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Attack1_8.png using Guid(7252e893a943743ffae1979523c2b8b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a02b3d7f98e0221d2597b8e281291288') in 0.014180 seconds 
+  Import took 0.016801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Attack1_5.png
+  artifactKey: Guid(1f7ade980ec8543988c93a00598f95a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Attack1_5.png using Guid(1f7ade980ec8543988c93a00598f95a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9402b711d01f1ae817e5cbd21ff3a99') in 0.017680 seconds 
+  Import took 0.021330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Attack1_9.png
+  artifactKey: Guid(5908e5d82af2542e39eb98cdd5ebceeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Attack1_9.png using Guid(5908e5d82af2542e39eb98cdd5ebceeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a384c55ba25c510d0a67dcd5259af7b5') in 0.015467 seconds 
+  Import took 0.017931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Attack1_11.png
+  artifactKey: Guid(eddd1df2902ed41c5bd49dc6096ef1d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Attack1_11.png using Guid(eddd1df2902ed41c5bd49dc6096ef1d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5975ffd94811e1df41c7d00a3a4262b') in 0.014441 seconds 
+  Import took 0.017276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Attack1_6.png
+  artifactKey: Guid(f7ea140e72df645df8182a0bdb73aa26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Attack1_6.png using Guid(f7ea140e72df645df8182a0bdb73aa26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e1c0cba21ed3646b22fa3197e64be46') in 0.014549 seconds 
+  Import took 0.017555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Blink_2.png
+  artifactKey: Guid(8cf88f801d31b4d37bfed837f291914e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Blink_2.png using Guid(8cf88f801d31b4d37bfed837f291914e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14b800bae9173223be2f1ff5c1648c46') in 0.014471 seconds 
+  Import took 0.016947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Attack1_2.png
+  artifactKey: Guid(669a6d444797a478c887fab43ce7999d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Attack1_2.png using Guid(669a6d444797a478c887fab43ce7999d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '832b8d42f64dc0d73b0be20ff60d1e47') in 0.014912 seconds 
+  Import took 0.017756 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000181 seconds.
-  path: Assets/UnityChan/2DUnitychan/AnimationController/BaseAnimationController
-  artifactKey: Guid(2ca4ce7f1933c429f81840a92b78c721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityChan/2DUnitychan/AnimationController/BaseAnimationController using Guid(2ca4ce7f1933c429f81840a92b78c721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f67b30853e0a8f5f776f52a9135c9f2') in 0.008581 seconds 
-  Import took 0.011466 seconds .
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Attack1_13.png
+  artifactKey: Guid(12d0b8715e60f487fb0935be1b8c1a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Attack1_13.png using Guid(12d0b8715e60f487fb0935be1b8c1a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed067a89f991f7be5552b7946616ad2f') in 0.014702 seconds 
+  Import took 0.017862 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.664696 seconds.
-  path: Assets/UnityChan/2DUnitychan/AnimationController/2DAEmitionControllers/Holger.overrideController
-  artifactKey: Guid(2fbd24c5e57eb4ea2bc87144c17e65a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityChan/2DUnitychan/AnimationController/2DAEmitionControllers/Holger.overrideController using Guid(2fbd24c5e57eb4ea2bc87144c17e65a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1298cd855bb3535a5eed5f725a3f484b') in 0.025878 seconds 
-  Import took 0.028919 seconds .
+  Time since last request: 0.000207 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Attack1_3.png
+  artifactKey: Guid(fe8e6c3d865e94e869760be6acefe82d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Attack1_3.png using Guid(fe8e6c3d865e94e869760be6acefe82d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a4eb3f32aef42914c6abaa58e592c1a') in 0.015203 seconds 
+  Import took 0.017698 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/UnityChan/2DUnitychan/AnimationController/2DAEmitionControllers/Yuko.overrideController
-  artifactKey: Guid(17be87a1400f7413fa4ba7633e8494ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityChan/2DUnitychan/AnimationController/2DAEmitionControllers/Yuko.overrideController using Guid(17be87a1400f7413fa4ba7633e8494ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1ff229b2365c62a602f3c9b574ad303') in 0.051692 seconds 
-  Import took 0.054603 seconds .
+  Time since last request: 93.201329 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Crouch_2.png
+  artifactKey: Guid(8cc3c514d0fee4db7ad0ed3d4d43b917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Crouch_2.png using Guid(8cc3c514d0fee4db7ad0ed3d4d43b917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc5fd19c51eba2dc27f1405d10847866') in 0.018021 seconds 
+  Import took 0.021781 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000333 seconds.
-  path: Assets/UnityChan/2DUnitychan/AnimationController/2DAEmitionControllers/Mariabell.overrideController
-  artifactKey: Guid(32a0e07abe6f8430ba9932262e690034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityChan/2DUnitychan/AnimationController/2DAEmitionControllers/Mariabell.overrideController using Guid(32a0e07abe6f8430ba9932262e690034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5d69cc67fe17b707299c0133a438fe0') in 0.042614 seconds 
-  Import took 0.045349 seconds .
+  Time since last request: 0.000310 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Crouch_4.png
+  artifactKey: Guid(ff0fe56c827c84476a07979f592965b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Crouch_4.png using Guid(ff0fe56c827c84476a07979f592965b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c475290badca7d34f63d5326c29cc5e') in 0.016662 seconds 
+  Import took 0.019503 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/UnityChan/2DUnitychan/AnimationController/2DAEmitionControllers/Jack.overrideController
-  artifactKey: Guid(3679f9498b4644274a5955b6b13e9b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityChan/2DUnitychan/AnimationController/2DAEmitionControllers/Jack.overrideController using Guid(3679f9498b4644274a5955b6b13e9b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e0afd66c00d2de8822b79544e4f4d6d') in 0.034872 seconds 
-  Import took 0.037498 seconds .
+  Time since last request: 0.000204 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Crouch_3.png
+  artifactKey: Guid(5a2030941cbee464094fbf3345ec9111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Crouch_3.png using Guid(5a2030941cbee464094fbf3345ec9111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc2160905baa440da7c4acaafe5e7498') in 0.015489 seconds 
+  Import took 0.019106 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/UnityChan/2DUnitychan/AnimationController/2DAEmitionControllers/Marie.overrideController
-  artifactKey: Guid(6ddfab99b45ec40f5a9454bd9271e167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityChan/2DUnitychan/AnimationController/2DAEmitionControllers/Marie.overrideController using Guid(6ddfab99b45ec40f5a9454bd9271e167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42835159f949699e945ca6af56f248e6') in 0.040165 seconds 
-  Import took 0.042777 seconds .
+  Time since last request: 0.000222 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Crouch_5.png
+  artifactKey: Guid(c3c7e63d325c64719b0d7839d3e04b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Crouch_5.png using Guid(c3c7e63d325c64719b0d7839d3e04b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10e5e9937f2136a2b3c1a8be1f6f2eda') in 0.016518 seconds 
+  Import took 0.019418 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/UnityChan/2DUnitychan/AnimationController/2DAEmitionControllers/Yuji.overrideController
-  artifactKey: Guid(5ff58e9efcdd642abb3880a279a9683e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityChan/2DUnitychan/AnimationController/2DAEmitionControllers/Yuji.overrideController using Guid(5ff58e9efcdd642abb3880a279a9683e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '095212c602a489c820fd4391c6080154') in 0.034653 seconds 
-  Import took 0.037238 seconds .
+  Time since last request: 0.000198 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Damage_1.png
+  artifactKey: Guid(7c9d471e175de430586ba21112e9572f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Damage_1.png using Guid(7c9d471e175de430586ba21112e9572f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0dab654bb270493b13934d0ae6171a6') in 0.014793 seconds 
+  Import took 0.017540 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/UnityChan/2DUnitychan/AnimationController/2DAEmitionControllers/Toko.overrideController
-  artifactKey: Guid(bf469b4103dad428a9e32ac580af8d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityChan/2DUnitychan/AnimationController/2DAEmitionControllers/Toko.overrideController using Guid(bf469b4103dad428a9e32ac580af8d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8ecf412bb44c15b443d89c3936e9cf2') in 0.023557 seconds 
-  Import took 0.026155 seconds .
+  Time since last request: 0.000171 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Crouch_5.png
+  artifactKey: Guid(c3c7e63d325c64719b0d7839d3e04b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Crouch_5.png using Guid(c3c7e63d325c64719b0d7839d3e04b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10e5e9937f2136a2b3c1a8be1f6f2eda') in 0.006360 seconds 
+  Import took 0.009212 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/UnityChan/2DUnitychan/AnimationController/2DAEmitionControllers/Misaki.overrideController
-  artifactKey: Guid(201a88ab19fe640baa94d3019959c4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityChan/2DUnitychan/AnimationController/2DAEmitionControllers/Misaki.overrideController using Guid(201a88ab19fe640baa94d3019959c4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2d22679b0c3bf6506367e605cca9a69') in 0.034340 seconds 
-  Import took 0.036961 seconds .
+  Time since last request: 0.000248 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Damage_1.png
+  artifactKey: Guid(7c9d471e175de430586ba21112e9572f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Damage_1.png using Guid(7c9d471e175de430586ba21112e9572f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0dab654bb270493b13934d0ae6171a6') in 0.005571 seconds 
+  Import took 0.008666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021019 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Damage_2.png
+  artifactKey: Guid(457cb75eb3c524b51965c3d073001c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Damage_2.png using Guid(457cb75eb3c524b51965c3d073001c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4046a45e1b99091596fbd8cf1ce02ab') in 0.023739 seconds 
+  Import took 0.026834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Damage_donw_1.png
+  artifactKey: Guid(abfe65cb211344f6e92cc9c6628944e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Damage_donw_1.png using Guid(abfe65cb211344f6e92cc9c6628944e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de97318c44e954aebc9e664c4dfcc44e') in 0.016062 seconds 
+  Import took 0.019002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Damage_3.png
+  artifactKey: Guid(6a6afeef7bdb74c0997406f483d9d900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Damage_3.png using Guid(6a6afeef7bdb74c0997406f483d9d900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '699c65817d0becd30f3dfdf04b137602') in 0.014762 seconds 
+  Import took 0.017895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Damage_4.png
+  artifactKey: Guid(f00daf561a47046be80c20e34960ead9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Damage_4.png using Guid(f00daf561a47046be80c20e34960ead9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67d2afc34f518031ae06d44b4e200e72') in 0.016736 seconds 
+  Import took 0.020099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Damage_donw_2.png
+  artifactKey: Guid(78a82dd9f8dfe4c78b7f13e09192041f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Damage_donw_2.png using Guid(78a82dd9f8dfe4c78b7f13e09192041f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4020ca2c6da92bc0500c45a0b69dd230') in 0.015942 seconds 
+  Import took 0.018654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.274891 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Damage_donw_3.png
+  artifactKey: Guid(cd0971a2bdc5f45068f03e7989815b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Damage_donw_3.png using Guid(cd0971a2bdc5f45068f03e7989815b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f90c5977b1e0242e49bedc24a7db146') in 0.014136 seconds 
+  Import took 0.017631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Damage_donw_4.png
+  artifactKey: Guid(3cf119301dbf64d7bb6bbdbfc15e13c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Damage_donw_4.png using Guid(3cf119301dbf64d7bb6bbdbfc15e13c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4059940042e49b73ce1684b9e7ee3e39') in 0.015946 seconds 
+  Import took 0.018778 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000192 seconds.
-  path: Assets/UnityChan/2DUnitychan/AnimationController/2DAEmitionControllers/Unitychan.overrideController
-  artifactKey: Guid(c711bdab11ea64a22b9b76048fccf0c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityChan/2DUnitychan/AnimationController/2DAEmitionControllers/Unitychan.overrideController using Guid(c711bdab11ea64a22b9b76048fccf0c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b9fecf77bdfc55f17a7f56073e531f8') in 0.027762 seconds 
-  Import took 0.030742 seconds .
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Damage_donw_5.png
+  artifactKey: Guid(b34b32f43d78e47dc9c3a1f53dba4a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Damage_donw_5.png using Guid(b34b32f43d78e47dc9c3a1f53dba4a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ee51811ebb19b828de4a5920d80ecfc') in 0.015911 seconds 
+  Import took 0.018998 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.135082 seconds.
-  path: Assets/UnityChan/2DUnitychan/AnimationController/2DBasicControllers/Cindy.overrideController
-  artifactKey: Guid(64dc80c7c2db441c1907a80a78796ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityChan/2DUnitychan/AnimationController/2DBasicControllers/Cindy.overrideController using Guid(64dc80c7c2db441c1907a80a78796ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2059c3e4493232567d0ee938b4846b25') in 0.079786 seconds 
-  Import took 0.083152 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/UnityChan/2DUnitychan/AnimationController/2DBasicControllers/Holger Battle.overrideController
-  artifactKey: Guid(10993bdea232a40ef88975e086663431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityChan/2DUnitychan/AnimationController/2DBasicControllers/Holger Battle.overrideController using Guid(10993bdea232a40ef88975e086663431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd10c1af84c24ad9e7898d2d85f9ce677') in 0.025000 seconds 
-  Import took 0.028611 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/UnityChan/2DUnitychan/AnimationController/2DBasicControllers/Toko.overrideController
-  artifactKey: Guid(1a2d124a0cefd41fa9bd4e5e85976dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityChan/2DUnitychan/AnimationController/2DBasicControllers/Toko.overrideController using Guid(1a2d124a0cefd41fa9bd4e5e85976dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '532b9735e215e84e1ba7daa02bb2efb7') in 0.016868 seconds 
-  Import took 0.019715 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/UnityChan/2DUnitychan/AnimationController/2DBasicControllers/Yuko.overrideController
-  artifactKey: Guid(144536ee999d94b7ba8a9ceeca98a70f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityChan/2DUnitychan/AnimationController/2DBasicControllers/Yuko.overrideController using Guid(144536ee999d94b7ba8a9ceeca98a70f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ee0f1ba6cc236fe4fc2502b88dd6ffd') in 0.055933 seconds 
-  Import took 0.058799 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/UnityChan/2DUnitychan/AnimationController/2DBasicControllers/Misaki.overrideController
-  artifactKey: Guid(66c8af569367e4346884ba93034f586f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityChan/2DUnitychan/AnimationController/2DBasicControllers/Misaki.overrideController using Guid(66c8af569367e4346884ba93034f586f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '369a33942079e3d1884fc4d6b76e8191') in 0.057819 seconds 
-  Import took 0.060555 seconds .
+  Time since last request: 0.000222 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Damage_donw_6.png
+  artifactKey: Guid(756067fcfc3444cdcbb9edad86c2ff16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Damage_donw_6.png using Guid(756067fcfc3444cdcbb9edad86c2ff16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53c85d48b92df07330e8e346d5109da9') in 0.016265 seconds 
+  Import took 0.019735 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000199 seconds.
-  path: Assets/UnityChan/2DUnitychan/AnimationController/2DBasicControllers/Marie.overrideController
-  artifactKey: Guid(c2471602410044aef9fb1ebc9bcce8df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityChan/2DUnitychan/AnimationController/2DBasicControllers/Marie.overrideController using Guid(c2471602410044aef9fb1ebc9bcce8df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a5385d2cfe83c3cc21716e45575b431') in 0.050898 seconds 
-  Import took 0.053665 seconds .
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Damage_return_1.png
+  artifactKey: Guid(e5df2758b2ac443c08a8587eff6564d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Damage_return_1.png using Guid(e5df2758b2ac443c08a8587eff6564d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8df44be757e73030309c24f70d89307c') in 0.015299 seconds 
+  Import took 0.018285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.644144 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Damage_return_2.png
+  artifactKey: Guid(ced3ff8c350174187a4d97220257c2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Damage_return_2.png using Guid(ced3ff8c350174187a4d97220257c2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd19313a78bbfe40312855f27233565b1') in 0.013954 seconds 
+  Import took 0.016940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Damage_return_3.png
+  artifactKey: Guid(cc1b461bf62d04dd0a03cb575b2caed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Damage_return_3.png using Guid(cc1b461bf62d04dd0a03cb575b2caed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5d6188eb99a5b33eed9d134272f03c9') in 0.015796 seconds 
+  Import took 0.019251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Damage_return_6.png
+  artifactKey: Guid(b95fff65be01945fba672192ab5ee861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Damage_return_6.png using Guid(b95fff65be01945fba672192ab5ee861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6b79cd119f1b15f1ffd83fc9c4d4420') in 0.015263 seconds 
+  Import took 0.018193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Damage_return_5.png
+  artifactKey: Guid(861ec13696ffd49328e48bda17e21645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Damage_return_5.png using Guid(861ec13696ffd49328e48bda17e21645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1433b70cb00ab26b6a165024cffd5f5') in 0.014741 seconds 
+  Import took 0.017657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Damage_return_4.png
+  artifactKey: Guid(8fd6a800796574804bb4df0b6fb01f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Damage_return_4.png using Guid(8fd6a800796574804bb4df0b6fb01f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '504af404640afc018a55a340ccc20dff') in 0.015047 seconds 
+  Import took 0.018140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.386596 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Damage_return_7.png
+  artifactKey: Guid(14f3980ca4f034706808e943d60b9d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Damage_return_7.png using Guid(14f3980ca4f034706808e943d60b9d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65c4f5e235bc613406500de8d2c49435') in 0.014002 seconds 
+  Import took 0.016925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Idle_2.png
+  artifactKey: Guid(e06ecdda464974db39076757d767b6af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Idle_2.png using Guid(e06ecdda464974db39076757d767b6af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '380bff98deade734f56cee9c0b25220d') in 0.016430 seconds 
+  Import took 0.019602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Idle_1.png
+  artifactKey: Guid(7e10d35f997314ff492f7870771cafe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Idle_1.png using Guid(7e10d35f997314ff492f7870771cafe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4e8cfd00d12ba4c815af5672e2b43c5') in 0.015509 seconds 
+  Import took 0.018275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Damage_return_8.png
+  artifactKey: Guid(c3ea7ad26c57b47c89d4346d667ed9b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Damage_return_8.png using Guid(c3ea7ad26c57b47c89d4346d667ed9b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a644ef3c61c3654f893cf8ff53133af3') in 0.015170 seconds 
+  Import took 0.018257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Idle_3.png
+  artifactKey: Guid(14da5b3caab25433a8fc31a0297dd96e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Idle_3.png using Guid(14da5b3caab25433a8fc31a0297dd96e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb3d6f9aaf36de54777687bb405651c6') in 0.014089 seconds 
+  Import took 0.017784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 195.972657 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Idle_4.png
+  artifactKey: Guid(dec9d61bd5f9c48af8396bea0fa50faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Idle_4.png using Guid(dec9d61bd5f9c48af8396bea0fa50faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b91c52d2b0cf002f41db119ee532d39') in 0.015375 seconds 
+  Import took 0.018442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Jump_1.png
+  artifactKey: Guid(f209f60c4282f4997a391a1816c48cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Jump_1.png using Guid(f209f60c4282f4997a391a1816c48cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60f9f9a620ffea349486dc074be122b0') in 0.015057 seconds 
+  Import took 0.017900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Jump_2.png
+  artifactKey: Guid(949488e89293f4aa09ef3813d4084351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Jump_2.png using Guid(949488e89293f4aa09ef3813d4084351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38a67ba98a435db945a688351f32344c') in 0.024050 seconds 
+  Import took 0.027459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Jump_4.png
+  artifactKey: Guid(c2a43cf35286f45308b7bda65ff5e86c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Jump_4.png using Guid(c2a43cf35286f45308b7bda65ff5e86c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b159bd18f5f6d9b89fba1e2a5d3120a3') in 0.014889 seconds 
+  Import took 0.017743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Jump_3.png
+  artifactKey: Guid(8257e43b5b8e04ef98dcbb53ecedc42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Jump_3.png using Guid(8257e43b5b8e04ef98dcbb53ecedc42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a2dc061dae5f276699b4d7fddb3ead0') in 0.015791 seconds 
+  Import took 0.018548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.305818 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Jump_5.png
+  artifactKey: Guid(25882ab028253487dbc70e0f893375da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Jump_5.png using Guid(25882ab028253487dbc70e0f893375da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b2fcaa8db12736f775f5d984d59ac88') in 0.014268 seconds 
+  Import took 0.017116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Lookaround_1.png
+  artifactKey: Guid(09e2a4a332a1e44f081855d49a30d667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Lookaround_1.png using Guid(09e2a4a332a1e44f081855d49a30d667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bb01af13bffa4fe7d15f78e0a714dbe') in 0.014632 seconds 
+  Import took 0.017214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Lookaround_4.png
+  artifactKey: Guid(3274800425f9046168715a84615454d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Lookaround_4.png using Guid(3274800425f9046168715a84615454d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '826af826fe42514ff76772a88fa4da0e') in 0.018050 seconds 
+  Import took 0.021380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Lookaround_2.png
+  artifactKey: Guid(c1db0dc020ea24451ab2547c8bead0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Lookaround_2.png using Guid(c1db0dc020ea24451ab2547c8bead0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b94a49eead8ae3b65f7347cabffbbf53') in 0.014835 seconds 
+  Import took 0.017592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Lookaround_3.png
+  artifactKey: Guid(b0247d42b56c04ccc821c9e58a555e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Lookaround_3.png using Guid(b0247d42b56c04ccc821c9e58a555e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3efa96f36d1178d4651f0b1263b6e11f') in 0.013533 seconds 
+  Import took 0.016227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.289449 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Lookaround_5.png
+  artifactKey: Guid(c9e8604cef03847e3a533c8ee5913d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Lookaround_5.png using Guid(c9e8604cef03847e3a533c8ee5913d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2ef0c941f3f25fdae7701c088d93ac6') in 0.015513 seconds 
+  Import took 0.018614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Lookaround_6.png
+  artifactKey: Guid(6228698879c1142d1b507011a53d674b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Lookaround_6.png using Guid(6228698879c1142d1b507011a53d674b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d4180ac2b5144277751c4b232283b6d') in 0.015424 seconds 
+  Import took 0.018223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Lookaround_9.png
+  artifactKey: Guid(c3f73250cfbe7401aba82b0355a4e60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Lookaround_9.png using Guid(c3f73250cfbe7401aba82b0355a4e60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e80e0983503011ea8fff3f6d0854cc45') in 0.014324 seconds 
+  Import took 0.016885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Lookaround_7.png
+  artifactKey: Guid(afdf405394cdd4af1a76809e02340a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Lookaround_7.png using Guid(afdf405394cdd4af1a76809e02340a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0f0eb415055156ad3eff1fed53a12b7') in 0.015139 seconds 
+  Import took 0.018008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Lookaround_8.png
+  artifactKey: Guid(c6bc84c012981410fba5fb891f53da4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Lookaround_8.png using Guid(c6bc84c012981410fba5fb891f53da4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1696fd8c8cdd7cbe2c707d41701dea78') in 0.014129 seconds 
+  Import took 0.016973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011594 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Lookaround_8.png
+  artifactKey: Guid(c6bc84c012981410fba5fb891f53da4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Lookaround_8.png using Guid(c6bc84c012981410fba5fb891f53da4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1696fd8c8cdd7cbe2c707d41701dea78') in 0.006673 seconds 
+  Import took 0.010579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.223838 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Negative_1.png
+  artifactKey: Guid(d4353da4553c34c9a8e60229c4ac7f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Negative_1.png using Guid(d4353da4553c34c9a8e60229c4ac7f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '157da4cff144c165d968b2d5aa60947f') in 0.015130 seconds 
+  Import took 0.018366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Negative_4.png
+  artifactKey: Guid(56af4c5bd25644e3983a69287c5443af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Negative_4.png using Guid(56af4c5bd25644e3983a69287c5443af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08839d967dc1a892af4679bbda176f06') in 0.014161 seconds 
+  Import took 0.016995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Negative_2.png
+  artifactKey: Guid(116f6b5dbfb91477ebdd50d5da1187d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Negative_2.png using Guid(116f6b5dbfb91477ebdd50d5da1187d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eeb8144cb66a10c83c205c68f820342') in 0.015868 seconds 
+  Import took 0.018694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Negative_3.png
+  artifactKey: Guid(d17af949ac83743ca8ce0d5fb2eb1f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Negative_3.png using Guid(d17af949ac83743ca8ce0d5fb2eb1f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9da13a7f87452292bb550174360e6e21') in 0.014211 seconds 
+  Import took 0.017307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Pointat_1.png
+  artifactKey: Guid(31b3318c7454b447dac36b2425b45b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Pointat_1.png using Guid(31b3318c7454b447dac36b2425b45b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ecd6d444778971bf4ce44a4eafc8488') in 0.014962 seconds 
+  Import took 0.018067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001428 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Pointat_1.png
+  artifactKey: Guid(31b3318c7454b447dac36b2425b45b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Pointat_1.png using Guid(31b3318c7454b447dac36b2425b45b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ecd6d444778971bf4ce44a4eafc8488') in 0.006651 seconds 
+  Import took 0.010061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 233.309492 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Pointat_2.png
+  artifactKey: Guid(c681556eb29a84f05b434a3dfc876170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Pointat_2.png using Guid(c681556eb29a84f05b434a3dfc876170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '072f466e5c5112d343a9de5828f092c7') in 0.014989 seconds 
+  Import took 0.018474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Pointat_3.png
+  artifactKey: Guid(bd427041be16040d294867a7b0a96b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Pointat_3.png using Guid(bd427041be16040d294867a7b0a96b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47a8e735d580631331495c441d479794') in 0.015040 seconds 
+  Import took 0.018194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 502.540850 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(fe5894f93563a3f45b88b8db22d6d8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(fe5894f93563a3f45b88b8db22d6d8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b67fef8735d0685ce2ecc192ebb04173') in 0.005605 seconds 
+  Import took 0.009629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.922522 seconds.
+  path: Assets/Scenes/Animations
+  artifactKey: Guid(768e7b66334773d4a8a888047db13602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Animations using Guid(768e7b66334773d4a8a888047db13602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0457112a51d910ee7a2a8767c0e5b37c') in 0.006639 seconds 
+  Import took 0.010130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.612919 seconds.
+  path: Assets/UnityChan/2DUnitychan/Animations/Toko
+  artifactKey: Guid(f502b87b31dc94344a8233a850f01959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Animations/Toko using Guid(f502b87b31dc94344a8233a850f01959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8f9594093906f48dd5574fcbf7360b9') in 0.002372 seconds 
+  Import took 0.005189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.119727 seconds.
+  path: Assets/UnityChan/2DUnitychan/Animations/Toko/Toko_Attack1.anim
+  artifactKey: Guid(431706be4b0df461cb07097a033b82d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Animations/Toko/Toko_Attack1.anim using Guid(431706be4b0df461cb07097a033b82d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b14b32ea674ef388e39a2bd80da0ca69') in 0.009560 seconds 
+  Import took 0.012687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.727118 seconds.
+  path: Assets/UnityChan/2DUnitychan/Animations/Toko/Toko_Attack2.anim
+  artifactKey: Guid(aed8859d0efb046519735530af678ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Animations/Toko/Toko_Attack2.anim using Guid(aed8859d0efb046519735530af678ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a618f912ac427ffc2ea5f30e48eb4d11') in 0.007158 seconds 
+  Import took 0.010312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.326279 seconds.
+  path: Assets/UnityChan/2DUnitychan/Animations/Toko/Toko_Crouch.anim
+  artifactKey: Guid(9eaf9010e878148e6825985e89380c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Animations/Toko/Toko_Crouch.anim using Guid(9eaf9010e878148e6825985e89380c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '311cc78b63c3fd23daca1b9409887e47') in 0.006818 seconds 
+  Import took 0.009662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.586980 seconds.
+  path: Assets/UnityChan/2DUnitychan/Animations/Toko/Toko_Damage.anim
+  artifactKey: Guid(dea2697c20f6746ee91d7357e37769c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Animations/Toko/Toko_Damage.anim using Guid(dea2697c20f6746ee91d7357e37769c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cc5fddb054c103b2a57b4c981d44f98') in 0.006279 seconds 
+  Import took 0.009142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.388895 seconds.
+  path: Assets/UnityChan/2DUnitychan/Animations/Toko/Toko_Jump_MidAir.anim
+  artifactKey: Guid(25116b9362d644270860f1889086f204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Animations/Toko/Toko_Jump_MidAir.anim using Guid(25116b9362d644270860f1889086f204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '405aeecaec6bdd759e350a2a9fe363e2') in 0.006774 seconds 
+  Import took 0.009833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.467851 seconds.
+  path: Assets/UnityChan/2DUnitychan/Animations/Toko/Toko_Jump_Fall.anim
+  artifactKey: Guid(f7e62e1643d914bd7ad820ebb17739dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Animations/Toko/Toko_Jump_Fall.anim using Guid(f7e62e1643d914bd7ad820ebb17739dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e3fd6cdee6147ae479f7f1f65707c04') in 0.005846 seconds 
+  Import took 0.008628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.430127 seconds.
+  path: Assets/UnityChan/2DUnitychan/Animations/Toko/Toko_Idle.anim
+  artifactKey: Guid(375421da141ff43d4b5c017fc0fce298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Animations/Toko/Toko_Idle.anim using Guid(375421da141ff43d4b5c017fc0fce298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c275151a3d1eaf08e187f5ca0d48250') in 0.006161 seconds 
+  Import took 0.008993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 220.520770 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Crouch.anim
+  artifactKey: Guid(0d1372e4dc73ce346907876ee4fb7e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Crouch.anim using Guid(0d1372e4dc73ce346907876ee4fb7e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddeb63860594cbfaa3611fcbc2813dcf') in 0.002480 seconds 
+  Import took 0.006388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.604899 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Damage.anim
+  artifactKey: Guid(603e7d5529074624eabb15a67208c361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Damage.anim using Guid(603e7d5529074624eabb15a67208c361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bafbc81d914228df590d1a963a8cdea') in 0.002607 seconds 
+  Import took 0.005594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.244393 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Down.anim
+  artifactKey: Guid(b925e9d8fcb8df24092188604cb19a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Down.anim using Guid(b925e9d8fcb8df24092188604cb19a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f369af3d462ba968206fff860b7e5af') in 0.007406 seconds 
+  Import took 0.010788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001925 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Down.anim
+  artifactKey: Guid(b925e9d8fcb8df24092188604cb19a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Down.anim using Guid(b925e9d8fcb8df24092188604cb19a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f369af3d462ba968206fff860b7e5af') in 0.002782 seconds 
+  Import took 0.006340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.008106 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Idle_1.controller
+  artifactKey: Guid(b363fb61a597d5742bf3c2c724c00011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Idle_1.controller using Guid(b363fb61a597d5742bf3c2c724c00011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a16cb4210304368cb0e592ed58aa1dc3') in 0.004402 seconds 
+  Import took 0.007474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001292 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Idle_1.controller
+  artifactKey: Guid(b363fb61a597d5742bf3c2c724c00011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Idle_1.controller using Guid(b363fb61a597d5742bf3c2c724c00011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a16cb4210304368cb0e592ed58aa1dc3') in 0.002362 seconds 
+  Import took 0.004985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.290452 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Idle.anim
+  artifactKey: Guid(c040b62e4a312724cabed1eaf9506954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Idle.anim using Guid(c040b62e4a312724cabed1eaf9506954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fb195b62f03ca1727dc1fa280bbeade') in 0.002480 seconds 
+  Import took 0.005253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.483953 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Jump.anim
+  artifactKey: Guid(33907d136e679dc4ea5dc09af0acf7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Jump.anim using Guid(33907d136e679dc4ea5dc09af0acf7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddf6237971e0f5e2e58161caecbab0ea') in 0.005790 seconds 
+  Import took 0.008778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001982 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Jump.anim
+  artifactKey: Guid(33907d136e679dc4ea5dc09af0acf7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Jump.anim using Guid(33907d136e679dc4ea5dc09af0acf7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddf6237971e0f5e2e58161caecbab0ea') in 0.002886 seconds 
+  Import took 0.005804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.674131 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Pointat_4.png
+  artifactKey: Guid(6537d4600a9524f579e5dc7a985a1b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Pointat_4.png using Guid(6537d4600a9524f579e5dc7a985a1b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24b80b6b0de3b310ae718bd042182638') in 0.014962 seconds 
+  Import took 0.017937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.317325 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Pointat_5.png
+  artifactKey: Guid(0d8bed99df6754f5185bd908d452dd98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Pointat_5.png using Guid(0d8bed99df6754f5185bd908d452dd98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbab501e06461973a446c0d8167bbdc3') in 0.014391 seconds 
+  Import took 0.017391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Punch_2.png
+  artifactKey: Guid(b8aa23408fd0a4e53985f45519936078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Punch_2.png using Guid(b8aa23408fd0a4e53985f45519936078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8806418dc1b67ad1ce32dd0afb1d6a3a') in 0.010448 seconds 
+  Import took 0.012873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Pointat_6.png
+  artifactKey: Guid(b358bdeb1f239406ab81b1877380c9ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Pointat_6.png using Guid(b358bdeb1f239406ab81b1877380c9ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee2960bbce6c5d94acb4062f7d039c4f') in 0.014739 seconds 
+  Import took 0.017547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Punch_4.png
+  artifactKey: Guid(7124312f644874a1f9f9481713fc433c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Punch_4.png using Guid(7124312f644874a1f9f9481713fc433c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d4a0c08b1f03316f45bbcbe94047a91') in 0.010575 seconds 
+  Import took 0.013725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Positive_2.png
+  artifactKey: Guid(a71af9870967846b5bedf6348f04bc89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Positive_2.png using Guid(a71af9870967846b5bedf6348f04bc89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da2596a99f9a1f2fa3b2239fd1466e51') in 0.015902 seconds 
+  Import took 0.018996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Punch_5.png
+  artifactKey: Guid(7a31d9a9860c64627b9e9939653de9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Punch_5.png using Guid(7a31d9a9860c64627b9e9939653de9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '636a2171cd4c01db240bf1438d6d9697') in 0.009541 seconds 
+  Import took 0.012053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Punch_3.png
+  artifactKey: Guid(538ac083b8ed9434989a6c3a8d112da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Punch_3.png using Guid(538ac083b8ed9434989a6c3a8d112da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9289b52fbf1a80a339421257cb073ca7') in 0.009436 seconds 
+  Import took 0.012048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Positive_1.png
+  artifactKey: Guid(73433643135e344c4a9f935f006154bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Positive_1.png using Guid(73433643135e344c4a9f935f006154bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2414ab610c36ddb6b93c0506633daf31') in 0.015020 seconds 
+  Import took 0.017629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Punch_7.png
+  artifactKey: Guid(62fe08ccc77a94ef4b146bc0b34482b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Punch_7.png using Guid(62fe08ccc77a94ef4b146bc0b34482b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01d00697c0aa84b185edff8f2e415988') in 0.010052 seconds 
+  Import took 0.013280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Punch_1.png
+  artifactKey: Guid(2170a7795ee3b4b7a88e2360a40d2466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Punch_1.png using Guid(2170a7795ee3b4b7a88e2360a40d2466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '089e038c33a3715145e215b7e1f64663') in 0.010058 seconds 
+  Import took 0.012949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Punch_8.png
+  artifactKey: Guid(c32677a80f0624158b8dcc18d42ef47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Punch_8.png using Guid(c32677a80f0624158b8dcc18d42ef47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb0f2118bb5f63ff6d0af8faac1bc36f') in 0.010827 seconds 
+  Import took 0.013491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Punch_6.png
+  artifactKey: Guid(7b32e1ae88744473a896f2282cadf253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Punch_6.png using Guid(7b32e1ae88744473a896f2282cadf253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2f47e6d7289a8c38509ccd260f3a3de') in 0.011875 seconds 
+  Import took 0.014322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.067528 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Punch_9.png
+  artifactKey: Guid(59691826542814a9897d7191c872db92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Punch_9.png using Guid(59691826542814a9897d7191c872db92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51bd3e0af37a309ad05ab62e14f914ee') in 0.008177 seconds 
+  Import took 0.011148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Punch_10.png
+  artifactKey: Guid(346170155395941b6b00c7cb3149632d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Punch_10.png using Guid(346170155395941b6b00c7cb3149632d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8f138ae057dd33021e3aecd73b94e06') in 0.009756 seconds 
+  Import took 0.012616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Run_2.png
+  artifactKey: Guid(7d7339c959d454ffcbc0eaa100c1d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Run_2.png using Guid(7d7339c959d454ffcbc0eaa100c1d14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a073cd6ee9b411491073081b6d9efc42') in 0.014828 seconds 
+  Import took 0.017556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Run_1.png
+  artifactKey: Guid(f61088dc5022148ab91c007e53333d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Run_1.png using Guid(f61088dc5022148ab91c007e53333d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f21a8593bd6c9da7a697c2b04461c62') in 0.016575 seconds 
+  Import took 0.019953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012598 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Run_3.png
+  artifactKey: Guid(3a152ce120e1142dd8bd82a4e8eaf482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Run_3.png using Guid(3a152ce120e1142dd8bd82a4e8eaf482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e92016d92f1b3da563dfa2b6b3f18396') in 0.016136 seconds 
+  Import took 0.019499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Run_8.png
+  artifactKey: Guid(ca9f2e7c428eb45f7b23e11a1d0aa320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Run_8.png using Guid(ca9f2e7c428eb45f7b23e11a1d0aa320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e0255233f64159e7bb61db219880853') in 0.017517 seconds 
+  Import took 0.021018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Run_4.png
+  artifactKey: Guid(77704e9a1d8c045f4bbc99b0202be2dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Run_4.png using Guid(77704e9a1d8c045f4bbc99b0202be2dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e714f59b1697f905f460f3330eee7c8') in 0.018031 seconds 
+  Import took 0.021060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Run_5.png
+  artifactKey: Guid(5fb106e9f7f364402880be789476fb96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Run_5.png using Guid(5fb106e9f7f364402880be789476fb96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f648207f65c32484095b3ee3e394cfd') in 0.017084 seconds 
+  Import took 0.020650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Turn_8.png
+  artifactKey: Guid(2c83bd1300efa47b18c6cca35d9ce6c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Turn_8.png using Guid(2c83bd1300efa47b18c6cca35d9ce6c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f74ee9faf2aae26fc06127a6fc4b71c5') in 0.017482 seconds 
+  Import took 0.020642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Turn_5.png
+  artifactKey: Guid(285799791db7447048c2743e560d003f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Turn_5.png using Guid(285799791db7447048c2743e560d003f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d951751dc20b8b135d5b56c02f16310') in 0.016648 seconds 
+  Import took 0.019288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Turn_9.png
+  artifactKey: Guid(0b7dada1ef8d14d20a90bb5fb20b31b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Turn_9.png using Guid(0b7dada1ef8d14d20a90bb5fb20b31b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4210a6eed859e217109212d5da6a0f0a') in 0.015701 seconds 
+  Import took 0.019046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Turn_6.png
+  artifactKey: Guid(0a1a255c59b654e41beb5c78d99c6dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Turn_6.png using Guid(0a1a255c59b654e41beb5c78d99c6dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e35c0074342842ba9063a5ac0639de3') in 0.016776 seconds 
+  Import took 0.019511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Turn_10.png
+  artifactKey: Guid(802e6beeac0f54128a1f0a5f0545f802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Turn_10.png using Guid(802e6beeac0f54128a1f0a5f0545f802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de3d3a905d9fc0d6b42a9df950d29179') in 0.017803 seconds 
+  Import took 0.021132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Run_7.png
+  artifactKey: Guid(2dbd0b79743ea488dad1c0fb3a1cce70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Run_7.png using Guid(2dbd0b79743ea488dad1c0fb3a1cce70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38233989885c8926a3de17b1d379ffc0') in 0.016005 seconds 
+  Import took 0.018495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Turn_2.png
+  artifactKey: Guid(8f83df50ac6ca41fb85c6c4ff0c35e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Turn_2.png using Guid(8f83df50ac6ca41fb85c6c4ff0c35e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e82a9551eb32b8fabdef5373cc8e4d77') in 0.013815 seconds 
+  Import took 0.016778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Turn_3.png
+  artifactKey: Guid(2b41fcae5dc444f3892e9a5bb96198d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Turn_3.png using Guid(2b41fcae5dc444f3892e9a5bb96198d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '816c9f7b1f93a8b97c3ff24eea99a146') in 0.013569 seconds 
+  Import took 0.016099 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000192 seconds.
-  path: Assets/UnityChan/2DUnitychan/AnimationController/2DBasicControllers/Yuji.overrideController
-  artifactKey: Guid(849b0b7920c524238aa21252e427556b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityChan/2DUnitychan/AnimationController/2DBasicControllers/Yuji.overrideController using Guid(849b0b7920c524238aa21252e427556b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd36eda04bc7aed579110719195a1ef5b') in 0.057785 seconds 
-  Import took 0.060373 seconds .
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Turn_13.png
+  artifactKey: Guid(81b44f57a641a4604b46632b1edd2ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Turn_13.png using Guid(81b44f57a641a4604b46632b1edd2ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a0fd1552c5a3eac0500c414d1450f23') in 0.014639 seconds 
+  Import took 0.017187 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/UnityChan/2DUnitychan/AnimationController/2DBasicControllers/Unitychan.overrideController
-  artifactKey: Guid(ba97e5056bd404cb9b358ebe4178d0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityChan/2DUnitychan/AnimationController/2DBasicControllers/Unitychan.overrideController using Guid(ba97e5056bd404cb9b358ebe4178d0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba0412193deaccef4b2a22e13be5a3e7') in 0.012179 seconds 
-  Import took 0.014942 seconds .
+  Time since last request: 0.000174 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Walk_4.png
+  artifactKey: Guid(9afecc7ce8abb481a92eaf2ba3ed87a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Walk_4.png using Guid(9afecc7ce8abb481a92eaf2ba3ed87a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9f311ca38259855b651b5d8b25f2c0a') in 0.021651 seconds 
+  Import took 0.024810 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/UnityChan/2DUnitychan/AnimationController/2DBasicControllers/Holger.overrideController
-  artifactKey: Guid(8cd0cc390b4a7426f902539e8197c511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityChan/2DUnitychan/AnimationController/2DBasicControllers/Holger.overrideController using Guid(8cd0cc390b4a7426f902539e8197c511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '364c77b3e2248d28bd90dc72c9d001ed') in 0.012506 seconds 
-  Import took 0.015299 seconds .
+  Time since last request: 0.000180 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Walk_3.png
+  artifactKey: Guid(c5e8e40b70ff34164a486b523b354b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Walk_3.png using Guid(c5e8e40b70ff34164a486b523b354b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '777f3e001543fa43ed1114c1060f1cef') in 0.014639 seconds 
+  Import took 0.017298 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.616122 seconds.
-  path: Assets/UnityChan/2DUnitychan/Animations/Marie
-  artifactKey: Guid(1fd47d15a53b8479e802b86ba2a2c08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityChan/2DUnitychan/Animations/Marie using Guid(1fd47d15a53b8479e802b86ba2a2c08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f8a8bbd5e26f43c78b246dcf95ac87d') in 0.002165 seconds 
-  Import took 0.005004 seconds .
+  Time since last request: 0.000185 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Turn_14.png
+  artifactKey: Guid(7269a09cfc9bf41de9197c950f8ed0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Turn_14.png using Guid(7269a09cfc9bf41de9197c950f8ed0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1fa77e8a1573b3a7733242b7df587b0') in 0.014849 seconds 
+  Import took 0.017411 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.267841 seconds.
-  path: Assets/UnityChan/2DUnitychan/Animations/Marie/Marie_Jump_Fall.anim
-  artifactKey: Guid(5576fd6169f984be2a646e76a4aea570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityChan/2DUnitychan/Animations/Marie/Marie_Jump_Fall.anim using Guid(5576fd6169f984be2a646e76a4aea570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c3e7814807d1ebbc5e17efafb557c5e') in 0.006947 seconds 
-  Import took 0.009998 seconds .
+  Time since last request: 0.000182 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Walk_5.png
+  artifactKey: Guid(ff2c89c30dd534b28882e2f866be8728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Walk_5.png using Guid(ff2c89c30dd534b28882e2f866be8728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b8d0a565807423181b120ea82810c9b') in 0.014235 seconds 
+  Import took 0.017354 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.003393 seconds.
-  path: Assets/UnityChan/2DUnitychan/Animations/Marie/Marie_Jump_Fall.anim
-  artifactKey: Guid(5576fd6169f984be2a646e76a4aea570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityChan/2DUnitychan/Animations/Marie/Marie_Jump_Fall.anim using Guid(5576fd6169f984be2a646e76a4aea570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c3e7814807d1ebbc5e17efafb557c5e') in 0.002434 seconds 
-  Import took 0.005444 seconds .
+  Time since last request: 0.000158 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Turn_11.png
+  artifactKey: Guid(c5a75bde48f984e2dbdcedbb08088d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Turn_11.png using Guid(c5a75bde48f984e2dbdcedbb08088d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7517c8eabf49b73adc6e0be4b9774c2') in 0.015410 seconds 
+  Import took 0.018410 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.822432 seconds.
-  path: Assets/UnityChan/2DUnitychan/Animations/Marie/Marie_Blink.anim
-  artifactKey: Guid(4f7266812182f4fe7b522be1e3c2f136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityChan/2DUnitychan/Animations/Marie/Marie_Blink.anim using Guid(4f7266812182f4fe7b522be1e3c2f136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c17413a096698f82abed6b4eebe9377f') in 0.006783 seconds 
-  Import took 0.009931 seconds .
+  Time since last request: 0.000179 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Warming_up_2.png
+  artifactKey: Guid(f87d724d66fac44e89c464364ce03a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Warming_up_2.png using Guid(f87d724d66fac44e89c464364ce03a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c181bcd01360c6a2cdfd63bc37877ab7') in 0.015465 seconds 
+  Import took 0.018030 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.924508 seconds.
-  path: Assets/UnityChan/2DUnitychan/Animations
-  artifactKey: Guid(0f2f73c04693a49cd937bfb0f5e90c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityChan/2DUnitychan/Animations using Guid(0f2f73c04693a49cd937bfb0f5e90c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b71e0f48724027d9077e989d7fb1da6') in 0.006638 seconds 
-  Import took 0.009824 seconds .
+  Time since last request: 0.000184 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Walk_1.png
+  artifactKey: Guid(e6094b108ddbf4c38a08daf7132d4ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Walk_1.png using Guid(e6094b108ddbf4c38a08daf7132d4ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '047290154296940366b90ff248b5e4f0') in 0.015190 seconds 
+  Import took 0.017671 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.414319 seconds.
-  path: Assets/UnityChan/2DUnitychan/Scenes
-  artifactKey: Guid(49ba91fa360f240c09bfad7dbf5b5080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityChan/2DUnitychan/Scenes using Guid(49ba91fa360f240c09bfad7dbf5b5080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c29df88af4215c372c21a1009ebd7e5') in 0.006174 seconds 
-  Import took 0.009090 seconds .
+  Time since last request: 0.000199 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Warming_up_4.png
+  artifactKey: Guid(13b92be15afd14e8ab9e7b298c243d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Warming_up_4.png using Guid(13b92be15afd14e8ab9e7b298c243d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fc99481304a0edf116eea41f6843575') in 0.014428 seconds 
+  Import took 0.017282 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.315897 seconds.
-  path: Assets/UnityChan/2DUnitychan/Sprites
-  artifactKey: Guid(5508e99ed3a944b4c941af0e2b3d13e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityChan/2DUnitychan/Sprites using Guid(5508e99ed3a944b4c941af0e2b3d13e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40648853f7f6262bbe96996e33089930') in 0.007026 seconds 
-  Import took 0.010000 seconds .
+  Time since last request: 0.000151 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Turn_12.png
+  artifactKey: Guid(58bbc2d42ff724e74a2f54363028197c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Turn_12.png using Guid(58bbc2d42ff724e74a2f54363028197c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '250561a3196fe734bf8e90a7c8ab18a5') in 0.015257 seconds 
+  Import took 0.017746 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.794659 seconds.
-  path: Assets/UnityChan/2DUnitychan/Sprites/Mariabell
-  artifactKey: Guid(556e262f87d0d4ccabbbcd945a29c0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityChan/2DUnitychan/Sprites/Mariabell using Guid(556e262f87d0d4ccabbbcd945a29c0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '823f15c84a5d00557135988bf73a1a06') in 0.005323 seconds 
-  Import took 0.008329 seconds .
+  Time since last request: 0.000176 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Warming_up_5.png
+  artifactKey: Guid(7a86bddbee23a4235b7b38cecd0142ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Warming_up_5.png using Guid(7a86bddbee23a4235b7b38cecd0142ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42e8f69215163854b7853232f58583b7') in 0.013773 seconds 
+  Import took 0.016209 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000314 seconds.
-  path: Assets/UnityChan/2DUnitychan/Sprites/Mariabell
-  artifactKey: Guid(556e262f87d0d4ccabbbcd945a29c0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityChan/2DUnitychan/Sprites/Mariabell using Guid(556e262f87d0d4ccabbbcd945a29c0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '823f15c84a5d00557135988bf73a1a06') in 0.001879 seconds 
-  Import took 0.004784 seconds .
+  Time since last request: 0.000156 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Walk_2.png
+  artifactKey: Guid(64d419f7db21743fbba3d5692169e427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Walk_2.png using Guid(64d419f7db21743fbba3d5692169e427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed39db56217de530b6f80f17616f3d5a') in 0.014272 seconds 
+  Import took 0.016761 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Warming_up_8.png
+  artifactKey: Guid(18e571c2a4b12463ba25aa0e053794de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Warming_up_8.png using Guid(18e571c2a4b12463ba25aa0e053794de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e62c58697c135fe7c9c9041bafb34287') in 0.015475 seconds 
+  Import took 0.018460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Warming_up_13.png
+  artifactKey: Guid(bf1b6f754be624f1182982aa535ecd9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Warming_up_13.png using Guid(bf1b6f754be624f1182982aa535ecd9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e1a5c264f108934fb2a845c3371e862') in 0.014563 seconds 
+  Import took 0.017517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Wave_hand_1.png
+  artifactKey: Guid(b5fd3e1adf66346d69a70c62d50ee853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Wave_hand_1.png using Guid(b5fd3e1adf66346d69a70c62d50ee853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f8bc1dcf4c86d622324f03454d40c08') in 0.014288 seconds 
+  Import took 0.017347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Warming_up_14.png
+  artifactKey: Guid(a6bed354eba9146c5a148a43edc0f985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Warming_up_14.png using Guid(a6bed354eba9146c5a148a43edc0f985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7045c37b610573f20f2ac09941d19108') in 0.017717 seconds 
+  Import took 0.020647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Wave_hand_4.png
+  artifactKey: Guid(b777ad70cd5ee4775b5210ada494a486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Wave_hand_4.png using Guid(b777ad70cd5ee4775b5210ada494a486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c80f90285413d5b541e1f959d219f2') in 0.016857 seconds 
+  Import took 0.020108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Warming_up_9.png
+  artifactKey: Guid(eadfe6e7daad943e18d793117d6a7422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Warming_up_9.png using Guid(eadfe6e7daad943e18d793117d6a7422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee7d3f6b4ff13c298ca09c8ee2bada84') in 0.016319 seconds 
+  Import took 0.019156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Warming_up_7.png
+  artifactKey: Guid(c777a952ccc30476591650cef7f115d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Warming_up_7.png using Guid(c777a952ccc30476591650cef7f115d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30c310d6d4882a942da0e6f1773572ce') in 0.015425 seconds 
+  Import took 0.018027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Wave_hand_3.png
+  artifactKey: Guid(1a26a7ba565a743f8865de2e5fa5dc12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Wave_hand_3.png using Guid(1a26a7ba565a743f8865de2e5fa5dc12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1734416b1811b94e4f002b9d9b5363aa') in 0.015236 seconds 
+  Import took 0.018177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Wave_hand_2.png
+  artifactKey: Guid(6aac6912be708454d9f21495c43b56f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Wave_hand_2.png using Guid(6aac6912be708454d9f21495c43b56f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b0f0f49d8994143d36b2fdf20454ace') in 0.016568 seconds 
+  Import took 0.019082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Warming_up_1.png
+  artifactKey: Guid(018fd3d5182b149658666b6a3cc02a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Warming_up_1.png using Guid(018fd3d5182b149658666b6a3cc02a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abfe8a2e752c23d6612c6a22dff78cb6') in 0.016921 seconds 
+  Import took 0.020407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Turn_3.png
+  artifactKey: Guid(2b41fcae5dc444f3892e9a5bb96198d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Turn_3.png using Guid(2b41fcae5dc444f3892e9a5bb96198d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '816c9f7b1f93a8b97c3ff24eea99a146') in 0.006873 seconds 
+  Import took 0.010275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Warming_up_6.png
+  artifactKey: Guid(36b029ad17b674b2492e08e77f565ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Warming_up_6.png using Guid(36b029ad17b674b2492e08e77f565ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37264aca4e3cd1aacce0a81f0e4061f8') in 0.016595 seconds 
+  Import took 0.020047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Warming_up_12.png
+  artifactKey: Guid(190a4fed202594d0f8af4f72de951308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Warming_up_12.png using Guid(190a4fed202594d0f8af4f72de951308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd60e33028bf2bd57b92a5dbdbc2e8cd') in 0.018766 seconds 
+  Import took 0.022050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Warming_up_3.png
+  artifactKey: Guid(fa7a139d6eb7a4bf78be2b51d5fad446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Warming_up_3.png using Guid(fa7a139d6eb7a4bf78be2b51d5fad446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b84e1dea9a346a5c6b68f95ebf5d313') in 0.016784 seconds 
+  Import took 0.020131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Turn_1.png
+  artifactKey: Guid(46113b2559c8f40918cd7dc092f3d090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Turn_1.png using Guid(46113b2559c8f40918cd7dc092f3d090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '870a4481b2b83d16abae8816b9ffcbab') in 0.015729 seconds 
+  Import took 0.019325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Turn_7.png
+  artifactKey: Guid(5e527a0615db941f1a5046fb4d2c6209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Turn_7.png using Guid(5e527a0615db941f1a5046fb4d2c6209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e445274834ae72e196eb55ba2467efc6') in 0.017563 seconds 
+  Import took 0.021243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Warming_up_10.png
+  artifactKey: Guid(cece9133a2f064a66bb0159368c2bb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Warming_up_10.png using Guid(cece9133a2f064a66bb0159368c2bb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46957ab209a474f106e03d43dde7eb81') in 0.018225 seconds 
+  Import took 0.021448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Warming_up_11.png
+  artifactKey: Guid(265e57db7136642588c1af49f102170c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Warming_up_11.png using Guid(265e57db7136642588c1af49f102170c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54211be78bde5693d437751a530f25ed') in 0.016226 seconds 
+  Import took 0.018916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Turn_4.png
+  artifactKey: Guid(03cb91c28b47141778514f177c876643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Turn_4.png using Guid(03cb91c28b47141778514f177c876643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8546406c94af5d2c15b53fd56821ca56') in 0.014276 seconds 
+  Import took 0.017212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Walk_6.png
+  artifactKey: Guid(294f29e7fff1c4354bc542a7710d2a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Walk_6.png using Guid(294f29e7fff1c4354bc542a7710d2a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23fce7a84b50275cac57f17e82dcbb9f') in 0.015261 seconds 
+  Import took 0.018040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Run_6.png
+  artifactKey: Guid(62b6c6ce7742846d09d1c12ab6c3fdb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Toko/Toko_Run_6.png using Guid(62b6c6ce7742846d09d1c12ab6c3fdb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '366dfcbfd326ac76ad3dab3f1e2dc21c') in 0.014406 seconds 
+  Import took 0.016878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.536237 seconds.
+  path: Assets/Animations/Toko_Down.anim
+  artifactKey: Guid(b925e9d8fcb8df24092188604cb19a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Toko_Down.anim using Guid(b925e9d8fcb8df24092188604cb19a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '198916bb3187d4f0ac69de7340dc7dd1') in 0.002755 seconds 
+  Import took 0.005906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.843635 seconds.
+  path: Assets/Animations/Toko_Jump.anim
+  artifactKey: Guid(33907d136e679dc4ea5dc09af0acf7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Toko_Jump.anim using Guid(33907d136e679dc4ea5dc09af0acf7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9026e834c1f747a863cf9b008ed2d790') in 0.002544 seconds 
+  Import took 0.005496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.339457 seconds.
+  path: Assets/Animations/Toko_Crouch.anim
+  artifactKey: Guid(0d1372e4dc73ce346907876ee4fb7e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Toko_Crouch.anim using Guid(0d1372e4dc73ce346907876ee4fb7e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62ba10613ee3aea5f190d6310ed78349') in 0.002393 seconds 
+  Import took 0.005187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.716177 seconds.
+  path: Assets/Animations/Toko_Idle_1.controller
+  artifactKey: Guid(558dd60ef6a99ac46b134505739879f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Toko_Idle_1.controller using Guid(558dd60ef6a99ac46b134505739879f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9167aab9b23af22c67918aa0a2acef27') in 0.002403 seconds 
+  Import took 0.005125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.551285 seconds.
+  path: Assets/Animations/Toko_Idle.anim
+  artifactKey: Guid(c040b62e4a312724cabed1eaf9506954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Toko_Idle.anim using Guid(c040b62e4a312724cabed1eaf9506954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3308b3dfee0b615196535c23fcd29de3') in 0.002377 seconds 
+  Import took 0.005126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.766570 seconds.
+  path: Assets/Animations/Toko_Damage.anim
+  artifactKey: Guid(603e7d5529074624eabb15a67208c361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Toko_Damage.anim using Guid(603e7d5529074624eabb15a67208c361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb097e230c38519c4d51464781222d93') in 0.002665 seconds 
+  Import took 0.005570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 115.649889 seconds.
+  path: Assets/UnityChan/2DUnitychan/Scenes/Other/Character.physicsMaterial2D
+  artifactKey: Guid(1378cabb5897f420bbee0c002ceabdac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Scenes/Other/Character.physicsMaterial2D using Guid(1378cabb5897f420bbee0c002ceabdac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c28bb1bf698a2637c056cfeeea64496') in 0.010961 seconds 
+  Import took 0.014086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/UnityChan/2DUnitychan/Scenes/Other/Circle.png
+  artifactKey: Guid(99d56c5d6d97140e8912f08559bf7b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Scenes/Other/Circle.png using Guid(99d56c5d6d97140e8912f08559bf7b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c936ce751a438339ac931135f237a27d') in 0.016729 seconds 
+  Import took 0.019231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/UnityChan/2DUnitychan/Scenes/Other/Stage.prefab
+  artifactKey: Guid(abf5200cfd6f94d5692161a65bf6b53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Scenes/Other/Stage.prefab using Guid(abf5200cfd6f94d5692161a65bf6b53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c664d2b1d6e26089767adf616b4924fb') in 0.011843 seconds 
+  Import took 0.014825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/UnityChan/2DUnitychan/Scenes/Other/Triangle.png
+  artifactKey: Guid(539dba4042de64bccb14a5615d2b62c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Scenes/Other/Triangle.png using Guid(539dba4042de64bccb14a5615d2b62c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94a20066b89a9f1340d163d86214e2ea') in 0.010576 seconds 
+  Import took 0.013126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/UnityChan/2DUnitychan/Scenes/Other/Triangle 1.asset
+  artifactKey: Guid(0c761f8dcddc44412b26f5fbc5e7f443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Scenes/Other/Triangle 1.asset using Guid(0c761f8dcddc44412b26f5fbc5e7f443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b77141156743ec7feb4a2eb39e9e560a') in 0.019224 seconds 
+  Import took 0.022340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/UnityChan/2DUnitychan/Scenes/Other/Square.asset
+  artifactKey: Guid(892513f244567405fa8c192e697fdf71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Scenes/Other/Square.asset using Guid(892513f244567405fa8c192e697fdf71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5268a36ea1f3ca79274a856bcd4c3c89') in 0.008009 seconds 
+  Import took 0.010716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/UnityChan/2DUnitychan/Scenes/Other/hpmpbar.png
+  artifactKey: Guid(e768592b0f85241df8bcb9b996a8ff40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Scenes/Other/hpmpbar.png using Guid(e768592b0f85241df8bcb9b996a8ff40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cc17864000dcc038aedb181e3b6601f') in 0.018682 seconds 
+  Import took 0.021730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/UnityChan/2DUnitychan/Scenes/Other/Triangle 1.png
+  artifactKey: Guid(d36475669d9b8497d939068d2847b0d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Scenes/Other/Triangle 1.png using Guid(d36475669d9b8497d939068d2847b0d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad42bdb3185943baa24de556849c92f5') in 0.008622 seconds 
+  Import took 0.011983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/UnityChan/2DUnitychan/Scenes/Other/Triangle.asset
+  artifactKey: Guid(780360361a7344970a953d34ddb5db2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Scenes/Other/Triangle.asset using Guid(780360361a7344970a953d34ddb5db2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6839cbb708c02195c3f31888c700804e') in 0.007268 seconds 
+  Import took 0.010004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/UnityChan/2DUnitychan/Scenes/Other/Square.png
+  artifactKey: Guid(df389ffcb148f4707bcaab35b5e1c06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Scenes/Other/Square.png using Guid(df389ffcb148f4707bcaab35b5e1c06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '950af87d655a78e211c8359804e903ab') in 0.009893 seconds 
+  Import took 0.012926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002903 seconds.
+  path: Assets/UnityChan/2DUnitychan/Scenes/Other/Triangle.asset
+  artifactKey: Guid(780360361a7344970a953d34ddb5db2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Scenes/Other/Triangle.asset using Guid(780360361a7344970a953d34ddb5db2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6839cbb708c02195c3f31888c700804e') in 0.005085 seconds 
+  Import took 0.008003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.858110 seconds.
+  path: Assets/UnityChan/2DUnitychan/Scenes/Prefabs/CharacterBase.prefab
+  artifactKey: Guid(ddad8f26de4834609b87480df9c86d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Scenes/Prefabs/CharacterBase.prefab using Guid(ddad8f26de4834609b87480df9c86d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd596726ce493d9ede92db1049f83d300') in 0.014067 seconds 
+  Import took 0.017832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/UnityChan/2DUnitychan/Scenes/Prefabs/Unitychan.prefab
+  artifactKey: Guid(4051cb34832534a64a2f03cacaaa470e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Scenes/Prefabs/Unitychan.prefab using Guid(4051cb34832534a64a2f03cacaaa470e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7700c60fc84df53533c825fb93dfca2b') in 0.096475 seconds 
+  Import took 0.099433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/UnityChan/2DUnitychan/Scenes/Prefabs/Toko.prefab
+  artifactKey: Guid(733095a617ea6466ebc5d23898949a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Scenes/Prefabs/Toko.prefab using Guid(733095a617ea6466ebc5d23898949a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a544d9ec51016e9f4ada2ef199c4508') in 0.048285 seconds 
+  Import took 0.051520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.747647 seconds.
+  path: Assets/UnityChan/2DUnitychan/Scenes/Scripts/2DUnitychanSamples.asmdef
+  artifactKey: Guid(fb927a058214e455593107a1c843c214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Scenes/Scripts/2DUnitychanSamples.asmdef using Guid(fb927a058214e455593107a1c843c214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '645735459f894f5d6ba2c667e167152a') in 0.007073 seconds 
+  Import took 0.010270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.544198 seconds.
+  path: Assets/UnityChan/2DUnitychan/Scenes/Scripts/BattleSpriteAction.cs
+  artifactKey: Guid(27a557aa9f1344bc7a06e7e0ae3950f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Scenes/Scripts/BattleSpriteAction.cs using Guid(27a557aa9f1344bc7a06e7e0ae3950f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd42ae2eb55cca1b0387b64b565b583') in 0.017685 seconds 
+  Import took 0.020586 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003331 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.866 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2083 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.8 MB.
+System memory in use after: 98.8 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2540.
+Total: 2.394500 ms (FindLiveObjects: 0.361500 ms CreateObjectMapping: 0.047200 ms MarkObjects: 1.888900 ms  DeleteObjects: 0.095600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003329 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.917 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2083 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.9 MB.
+System memory in use after: 98.9 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2544.
+Total: 1.859600 ms (FindLiveObjects: 0.198400 ms CreateObjectMapping: 0.048900 ms MarkObjects: 1.521100 ms  DeleteObjects: 0.090300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003710 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.957 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2083 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.9 MB.
+System memory in use after: 98.9 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2548.
+Total: 3.029800 ms (FindLiveObjects: 0.232400 ms CreateObjectMapping: 0.051000 ms MarkObjects: 2.629700 ms  DeleteObjects: 0.114900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004193 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.899 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2083 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.9 MB.
+System memory in use after: 98.9 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2552.
+Total: 2.025700 ms (FindLiveObjects: 0.179000 ms CreateObjectMapping: 0.046500 ms MarkObjects: 1.659200 ms  DeleteObjects: 0.139700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004031 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.885 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2083 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.9 MB.
+System memory in use after: 98.9 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2556.
+Total: 1.893200 ms (FindLiveObjects: 0.233300 ms CreateObjectMapping: 0.046600 ms MarkObjects: 1.509400 ms  DeleteObjects: 0.102500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003563 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.919 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2083 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.9 MB.
+System memory in use after: 98.9 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2560.
+Total: 1.984100 ms (FindLiveObjects: 0.180800 ms CreateObjectMapping: 0.048000 ms MarkObjects: 1.644700 ms  DeleteObjects: 0.109500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003301 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.909 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2083 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.9 MB.
+System memory in use after: 98.9 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2564.
+Total: 1.878500 ms (FindLiveObjects: 0.194200 ms CreateObjectMapping: 0.055500 ms MarkObjects: 1.533900 ms  DeleteObjects: 0.093900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003375 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.917 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2083 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.0 MB.
+System memory in use after: 98.9 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2568.
+Total: 1.933100 ms (FindLiveObjects: 0.216100 ms CreateObjectMapping: 0.045900 ms MarkObjects: 1.559900 ms  DeleteObjects: 0.109800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003164 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.923 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2083 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.0 MB.
+System memory in use after: 98.9 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2572.
+Total: 1.894700 ms (FindLiveObjects: 0.217100 ms CreateObjectMapping: 0.049200 ms MarkObjects: 1.534400 ms  DeleteObjects: 0.093000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003353 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.946 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2083 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.0 MB.
+System memory in use after: 99.0 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2576.
+Total: 1.870500 ms (FindLiveObjects: 0.198500 ms CreateObjectMapping: 0.053000 ms MarkObjects: 1.521500 ms  DeleteObjects: 0.096200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003177 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.956 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2083 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.0 MB.
+System memory in use after: 99.0 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2580.
+Total: 1.936200 ms (FindLiveObjects: 0.227300 ms CreateObjectMapping: 0.050300 ms MarkObjects: 1.556800 ms  DeleteObjects: 0.100500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003828 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.921 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2083 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.0 MB.
+System memory in use after: 99.0 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2584.
+Total: 2.672500 ms (FindLiveObjects: 0.221700 ms CreateObjectMapping: 0.047000 ms MarkObjects: 2.255000 ms  DeleteObjects: 0.147300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003333 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.948 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2083 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.0 MB.
+System memory in use after: 99.0 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2588.
+Total: 1.891600 ms (FindLiveObjects: 0.189100 ms CreateObjectMapping: 0.046800 ms MarkObjects: 1.561100 ms  DeleteObjects: 0.093200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003911 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.940 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2083 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.0 MB.
+System memory in use after: 99.0 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2592.
+Total: 1.951800 ms (FindLiveObjects: 0.202900 ms CreateObjectMapping: 0.047400 ms MarkObjects: 1.598400 ms  DeleteObjects: 0.101700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
