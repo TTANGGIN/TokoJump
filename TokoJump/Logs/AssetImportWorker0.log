@@ -1,0 +1,367 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.12f1 (b3b2c6512326) revision 11776710'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1052; Version 2009; 64bit' Language: 'ko' Physical Memory: 16298 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\2020.3.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/CHANG/Desktop/Workspace/UnityWorkspace/TokoJump/TokoJump
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+10240
+Successfully changed project path to: C:/Users/CHANG/Desktop/Workspace/UnityWorkspace/TokoJump/TokoJump
+C:/Users/CHANG/Desktop/Workspace/UnityWorkspace/TokoJump/TokoJump
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 45.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.12f1 (b3b2c6512326)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/CHANG/Desktop/Workspace/UnityWorkspace/TokoJump/TokoJump/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 SUPER (ID=0x1e84)
+    Vendor:   
+    VRAM:     8011 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/2020.3.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56228
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001627 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 50.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.479 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003402 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 46.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.981 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2085 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.6 MB.
+System memory in use after: 95.5 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2517.
+Total: 1.878200 ms (FindLiveObjects: 0.212600 ms CreateObjectMapping: 0.046100 ms MarkObjects: 1.517700 ms  DeleteObjects: 0.100600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/UnityChan/2DUnitychan/AnimationController/2D Action Controllers/Holger.overrideController
+  artifactKey: Guid(cbc8cc5a697294457919e9b8d952b799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/AnimationController/2D Action Controllers/Holger.overrideController using Guid(cbc8cc5a697294457919e9b8d952b799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fd1f11804788554bb7d794ff6abb9aa') in 0.110902 seconds 
+  Import took 0.114519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/UnityChan/2DUnitychan/AnimationController/2D Action Controllers/Unitychan(Gun).overrideController
+  artifactKey: Guid(7ecdb8983ed214a7b83c771ef497c43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/AnimationController/2D Action Controllers/Unitychan(Gun).overrideController using Guid(7ecdb8983ed214a7b83c771ef497c43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24b668408cc192fd4d47ec13fcb9723f') in 0.094516 seconds 
+  Import took 0.097344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/UnityChan/2DUnitychan/AnimationController/2D Action Controllers
+  artifactKey: Guid(10bad2400aca74bffa549452ab578171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/AnimationController/2D Action Controllers using Guid(10bad2400aca74bffa549452ab578171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e87ee47e6193a1011fc67e4ed5e34b5') in 0.007260 seconds 
+  Import took 0.009966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/UnityChan/2DUnitychan/AnimationController/2DBasicControllers
+  artifactKey: Guid(81a58dc64a2b44d6a9314ef733caea78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/AnimationController/2DBasicControllers using Guid(81a58dc64a2b44d6a9314ef733caea78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14d0c33b7fbd52d364660036d699c962') in 0.008523 seconds 
+  Import took 0.011345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/UnityChan/2DUnitychan/AnimationController/2DAEmitionControllers
+  artifactKey: Guid(b56c29f2df9244dec85d3c666d7adc3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/AnimationController/2DAEmitionControllers using Guid(b56c29f2df9244dec85d3c666d7adc3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e9a70925f3d3ea4615048300374efda') in 0.007409 seconds 
+  Import took 0.010293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/UnityChan/2DUnitychan/AnimationController/2D Action Controllers/Toko.overrideController
+  artifactKey: Guid(67bf33cd949304cbaabe969dfe04f653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/AnimationController/2D Action Controllers/Toko.overrideController using Guid(67bf33cd949304cbaabe969dfe04f653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24c9ee3c67475bbdcb01b5ce436cb05e') in 0.075999 seconds 
+  Import took 0.079062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/UnityChan/2DUnitychan/AnimationController/2D Action Controllers/Unitychan(Sword).overrideController
+  artifactKey: Guid(efcb6b10e9cec433f91d508fd4c3def6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/AnimationController/2D Action Controllers/Unitychan(Sword).overrideController using Guid(efcb6b10e9cec433f91d508fd4c3def6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f875f833fd3760a39e80b587622432d') in 0.032924 seconds 
+  Import took 0.035696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/UnityChan/2DUnitychan/AnimationController
+  artifactKey: Guid(f54e7d24aaf8542ab9f7f8ca60de52d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/AnimationController using Guid(f54e7d24aaf8542ab9f7f8ca60de52d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de68740b87fdf025776e29e0a343868e') in 0.007958 seconds 
+  Import took 0.010926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/UnityChan/2DUnitychan/AnimationController/BaseAnimationController
+  artifactKey: Guid(2ca4ce7f1933c429f81840a92b78c721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/AnimationController/BaseAnimationController using Guid(2ca4ce7f1933c429f81840a92b78c721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f67b30853e0a8f5f776f52a9135c9f2') in 0.008581 seconds 
+  Import took 0.011466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.664696 seconds.
+  path: Assets/UnityChan/2DUnitychan/AnimationController/2DAEmitionControllers/Holger.overrideController
+  artifactKey: Guid(2fbd24c5e57eb4ea2bc87144c17e65a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/AnimationController/2DAEmitionControllers/Holger.overrideController using Guid(2fbd24c5e57eb4ea2bc87144c17e65a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1298cd855bb3535a5eed5f725a3f484b') in 0.025878 seconds 
+  Import took 0.028919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/UnityChan/2DUnitychan/AnimationController/2DAEmitionControllers/Yuko.overrideController
+  artifactKey: Guid(17be87a1400f7413fa4ba7633e8494ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/AnimationController/2DAEmitionControllers/Yuko.overrideController using Guid(17be87a1400f7413fa4ba7633e8494ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1ff229b2365c62a602f3c9b574ad303') in 0.051692 seconds 
+  Import took 0.054603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/UnityChan/2DUnitychan/AnimationController/2DAEmitionControllers/Mariabell.overrideController
+  artifactKey: Guid(32a0e07abe6f8430ba9932262e690034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/AnimationController/2DAEmitionControllers/Mariabell.overrideController using Guid(32a0e07abe6f8430ba9932262e690034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5d69cc67fe17b707299c0133a438fe0') in 0.042614 seconds 
+  Import took 0.045349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/UnityChan/2DUnitychan/AnimationController/2DAEmitionControllers/Jack.overrideController
+  artifactKey: Guid(3679f9498b4644274a5955b6b13e9b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/AnimationController/2DAEmitionControllers/Jack.overrideController using Guid(3679f9498b4644274a5955b6b13e9b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e0afd66c00d2de8822b79544e4f4d6d') in 0.034872 seconds 
+  Import took 0.037498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/UnityChan/2DUnitychan/AnimationController/2DAEmitionControllers/Marie.overrideController
+  artifactKey: Guid(6ddfab99b45ec40f5a9454bd9271e167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/AnimationController/2DAEmitionControllers/Marie.overrideController using Guid(6ddfab99b45ec40f5a9454bd9271e167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42835159f949699e945ca6af56f248e6') in 0.040165 seconds 
+  Import took 0.042777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/UnityChan/2DUnitychan/AnimationController/2DAEmitionControllers/Yuji.overrideController
+  artifactKey: Guid(5ff58e9efcdd642abb3880a279a9683e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/AnimationController/2DAEmitionControllers/Yuji.overrideController using Guid(5ff58e9efcdd642abb3880a279a9683e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '095212c602a489c820fd4391c6080154') in 0.034653 seconds 
+  Import took 0.037238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/UnityChan/2DUnitychan/AnimationController/2DAEmitionControllers/Toko.overrideController
+  artifactKey: Guid(bf469b4103dad428a9e32ac580af8d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/AnimationController/2DAEmitionControllers/Toko.overrideController using Guid(bf469b4103dad428a9e32ac580af8d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8ecf412bb44c15b443d89c3936e9cf2') in 0.023557 seconds 
+  Import took 0.026155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/UnityChan/2DUnitychan/AnimationController/2DAEmitionControllers/Misaki.overrideController
+  artifactKey: Guid(201a88ab19fe640baa94d3019959c4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/AnimationController/2DAEmitionControllers/Misaki.overrideController using Guid(201a88ab19fe640baa94d3019959c4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2d22679b0c3bf6506367e605cca9a69') in 0.034340 seconds 
+  Import took 0.036961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/UnityChan/2DUnitychan/AnimationController/2DAEmitionControllers/Unitychan.overrideController
+  artifactKey: Guid(c711bdab11ea64a22b9b76048fccf0c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/AnimationController/2DAEmitionControllers/Unitychan.overrideController using Guid(c711bdab11ea64a22b9b76048fccf0c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b9fecf77bdfc55f17a7f56073e531f8') in 0.027762 seconds 
+  Import took 0.030742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.135082 seconds.
+  path: Assets/UnityChan/2DUnitychan/AnimationController/2DBasicControllers/Cindy.overrideController
+  artifactKey: Guid(64dc80c7c2db441c1907a80a78796ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/AnimationController/2DBasicControllers/Cindy.overrideController using Guid(64dc80c7c2db441c1907a80a78796ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2059c3e4493232567d0ee938b4846b25') in 0.079786 seconds 
+  Import took 0.083152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/UnityChan/2DUnitychan/AnimationController/2DBasicControllers/Holger Battle.overrideController
+  artifactKey: Guid(10993bdea232a40ef88975e086663431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/AnimationController/2DBasicControllers/Holger Battle.overrideController using Guid(10993bdea232a40ef88975e086663431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd10c1af84c24ad9e7898d2d85f9ce677') in 0.025000 seconds 
+  Import took 0.028611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/UnityChan/2DUnitychan/AnimationController/2DBasicControllers/Toko.overrideController
+  artifactKey: Guid(1a2d124a0cefd41fa9bd4e5e85976dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/AnimationController/2DBasicControllers/Toko.overrideController using Guid(1a2d124a0cefd41fa9bd4e5e85976dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '532b9735e215e84e1ba7daa02bb2efb7') in 0.016868 seconds 
+  Import took 0.019715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/UnityChan/2DUnitychan/AnimationController/2DBasicControllers/Yuko.overrideController
+  artifactKey: Guid(144536ee999d94b7ba8a9ceeca98a70f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/AnimationController/2DBasicControllers/Yuko.overrideController using Guid(144536ee999d94b7ba8a9ceeca98a70f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ee0f1ba6cc236fe4fc2502b88dd6ffd') in 0.055933 seconds 
+  Import took 0.058799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/UnityChan/2DUnitychan/AnimationController/2DBasicControllers/Misaki.overrideController
+  artifactKey: Guid(66c8af569367e4346884ba93034f586f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/AnimationController/2DBasicControllers/Misaki.overrideController using Guid(66c8af569367e4346884ba93034f586f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '369a33942079e3d1884fc4d6b76e8191') in 0.057819 seconds 
+  Import took 0.060555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/UnityChan/2DUnitychan/AnimationController/2DBasicControllers/Marie.overrideController
+  artifactKey: Guid(c2471602410044aef9fb1ebc9bcce8df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/AnimationController/2DBasicControllers/Marie.overrideController using Guid(c2471602410044aef9fb1ebc9bcce8df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a5385d2cfe83c3cc21716e45575b431') in 0.050898 seconds 
+  Import took 0.053665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/UnityChan/2DUnitychan/AnimationController/2DBasicControllers/Yuji.overrideController
+  artifactKey: Guid(849b0b7920c524238aa21252e427556b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/AnimationController/2DBasicControllers/Yuji.overrideController using Guid(849b0b7920c524238aa21252e427556b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd36eda04bc7aed579110719195a1ef5b') in 0.057785 seconds 
+  Import took 0.060373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/UnityChan/2DUnitychan/AnimationController/2DBasicControllers/Unitychan.overrideController
+  artifactKey: Guid(ba97e5056bd404cb9b358ebe4178d0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/AnimationController/2DBasicControllers/Unitychan.overrideController using Guid(ba97e5056bd404cb9b358ebe4178d0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba0412193deaccef4b2a22e13be5a3e7') in 0.012179 seconds 
+  Import took 0.014942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/UnityChan/2DUnitychan/AnimationController/2DBasicControllers/Holger.overrideController
+  artifactKey: Guid(8cd0cc390b4a7426f902539e8197c511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/AnimationController/2DBasicControllers/Holger.overrideController using Guid(8cd0cc390b4a7426f902539e8197c511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '364c77b3e2248d28bd90dc72c9d001ed') in 0.012506 seconds 
+  Import took 0.015299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.616122 seconds.
+  path: Assets/UnityChan/2DUnitychan/Animations/Marie
+  artifactKey: Guid(1fd47d15a53b8479e802b86ba2a2c08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Animations/Marie using Guid(1fd47d15a53b8479e802b86ba2a2c08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f8a8bbd5e26f43c78b246dcf95ac87d') in 0.002165 seconds 
+  Import took 0.005004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.267841 seconds.
+  path: Assets/UnityChan/2DUnitychan/Animations/Marie/Marie_Jump_Fall.anim
+  artifactKey: Guid(5576fd6169f984be2a646e76a4aea570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Animations/Marie/Marie_Jump_Fall.anim using Guid(5576fd6169f984be2a646e76a4aea570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c3e7814807d1ebbc5e17efafb557c5e') in 0.006947 seconds 
+  Import took 0.009998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003393 seconds.
+  path: Assets/UnityChan/2DUnitychan/Animations/Marie/Marie_Jump_Fall.anim
+  artifactKey: Guid(5576fd6169f984be2a646e76a4aea570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Animations/Marie/Marie_Jump_Fall.anim using Guid(5576fd6169f984be2a646e76a4aea570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c3e7814807d1ebbc5e17efafb557c5e') in 0.002434 seconds 
+  Import took 0.005444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.822432 seconds.
+  path: Assets/UnityChan/2DUnitychan/Animations/Marie/Marie_Blink.anim
+  artifactKey: Guid(4f7266812182f4fe7b522be1e3c2f136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Animations/Marie/Marie_Blink.anim using Guid(4f7266812182f4fe7b522be1e3c2f136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c17413a096698f82abed6b4eebe9377f') in 0.006783 seconds 
+  Import took 0.009931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.924508 seconds.
+  path: Assets/UnityChan/2DUnitychan/Animations
+  artifactKey: Guid(0f2f73c04693a49cd937bfb0f5e90c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Animations using Guid(0f2f73c04693a49cd937bfb0f5e90c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b71e0f48724027d9077e989d7fb1da6') in 0.006638 seconds 
+  Import took 0.009824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.414319 seconds.
+  path: Assets/UnityChan/2DUnitychan/Scenes
+  artifactKey: Guid(49ba91fa360f240c09bfad7dbf5b5080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Scenes using Guid(49ba91fa360f240c09bfad7dbf5b5080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c29df88af4215c372c21a1009ebd7e5') in 0.006174 seconds 
+  Import took 0.009090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.315897 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites
+  artifactKey: Guid(5508e99ed3a944b4c941af0e2b3d13e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites using Guid(5508e99ed3a944b4c941af0e2b3d13e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40648853f7f6262bbe96996e33089930') in 0.007026 seconds 
+  Import took 0.010000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.794659 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Mariabell
+  artifactKey: Guid(556e262f87d0d4ccabbbcd945a29c0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Mariabell using Guid(556e262f87d0d4ccabbbcd945a29c0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '823f15c84a5d00557135988bf73a1a06') in 0.005323 seconds 
+  Import took 0.008329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/UnityChan/2DUnitychan/Sprites/Mariabell
+  artifactKey: Guid(556e262f87d0d4ccabbbcd945a29c0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityChan/2DUnitychan/Sprites/Mariabell using Guid(556e262f87d0d4ccabbbcd945a29c0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '823f15c84a5d00557135988bf73a1a06') in 0.001879 seconds 
+  Import took 0.004784 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
